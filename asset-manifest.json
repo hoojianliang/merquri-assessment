@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/merquri-assessment/static/css/main.b991de9b.css",
+    "main.js": "/merquri-assessment/static/js/main.6c36e6ce.js",
+    "static/js/787.d73aaee0.chunk.js": "/merquri-assessment/static/js/787.d73aaee0.chunk.js",
+    "index.html": "/merquri-assessment/index.html",
+    "main.b991de9b.css.map": "/merquri-assessment/static/css/main.b991de9b.css.map",
+    "main.6c36e6ce.js.map": "/merquri-assessment/static/js/main.6c36e6ce.js.map",
+    "787.d73aaee0.chunk.js.map": "/merquri-assessment/static/js/787.d73aaee0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b991de9b.css",
+    "static/js/main.6c36e6ce.js"
+  ]
+}
