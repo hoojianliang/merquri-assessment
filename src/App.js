@@ -1,11 +1,13 @@
-import { Home } from './pages/Home'
+import { MyHome } from './pages/MyHome'
+import { BsHome } from './pages/BsHome'
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<MyHome />} />
+      <Route path="/bs" element={<BsHome />} />
     </Routes>
   );
 }

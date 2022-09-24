@@ -1,7 +1,7 @@
 import { BsNavbar } from '../components/BsComponents/BsNavbar'
 import { BsBody } from '../components/BsComponents/BsBody'
 
-export function Home() {
+export function BsHome() {
     return (
         <>
             <BsNavbar />

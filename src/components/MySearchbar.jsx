@@ -1,11 +1,10 @@
 import React, { useMemo, useState } from 'react';
-import { Form } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-import { MyTooltip } from '../MyToolTip';
-import { getNamesList, debounceFunction } from "../../utilities/common";
+import { MyTooltip } from './MyToolTip';
+import { getNamesList, debounceFunction } from "../utilities/common";
 
-export function BsSearchbar() {
+export function MySearchbar() {
   const [names, setNames] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState('');
@@ -47,12 +46,12 @@ export function BsSearchbar() {
   const debounceDropDown = useMemo(() => debounceFunction((nextValue) => getDropDown(nextValue), 500), [])
 
   return (
-    <Form className="assessment-searchbar">
-      <Form.Group>
-        <Form.Control type="text" placeholder="Search" onChange={onInputChangeHandler} className="assessment-searchbar-form" value={searchText} maxLength="20" />
+    <form className="assessment-searchbar">
+      <div>
+        <input type="text" placeholder="Search" onChange={onInputChangeHandler} className="assessment-searchbar-form my-searchbar-form" value={searchText} maxLength="20" />
         {isLoading ? <FontAwesomeIcon icon={faSpinner} className="spinner assessment-searchbar-spinner" /> : <></>}
         <MyTooltip searchText={searchText} names={names} setSuggestionText={setSuggestionText} />
-      </Form.Group>
-    </Form>
+      </div>
+    </form>
   );
 }
