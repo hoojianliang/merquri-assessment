@@ -1,6 +1,8 @@
 # Merquri Assessment
 
-Feel free to browse on:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Please feel free to browse on:
 1.  https://hoojianliang.github.io/merquri-assessment/ - Built without front-end framework
 2.  https://hoojianliang.github.io/merquri-assessment/#/bs - Built with front-end framework (React-Bootstrap)
 
