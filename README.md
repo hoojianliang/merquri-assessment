@@ -15,6 +15,3 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
-#### Deployment
-Deployed to netlify but got [error](https://legendary-douhua-b2a288.netlify.app/)
