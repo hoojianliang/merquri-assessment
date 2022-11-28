@@ -1,6 +1,6 @@
 # Merquri Assessment
 
-This project was bootstrapped with [Create React App](https://nuxt.com/docs/getting-started/installation).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Please feel free to browse on:
 1.  https://hoojianliang.github.io/merquri-assessment/ - Built without front-end framework
